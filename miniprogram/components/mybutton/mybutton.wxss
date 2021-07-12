@@ -1,0 +1,8 @@
+/* components/mybutton/mybutton.wxss */
+.btn {
+  width: 100px; height: 50px; line-height: 50px;
+  text-align: center; background-color: #36d;
+  color: white; border: 1px solid #444;
+}
+.round{ border-radius: 25px; }
+.rect{ border-radius: 3px; }

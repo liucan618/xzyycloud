@@ -1,0 +1,4 @@
+<!--components/mybutton/mybutton.wxml-->
+<view class="btn {{type}}"
+  style="background-color:{{color}};"
+  bindtap="tapEvent">{{text}}</view>

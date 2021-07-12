@@ -1,0 +1,25 @@
+<!--pages/me/me.wxml-->
+<view class="poster">
+  <van-image
+    round
+    width="160rpx"
+    height="160rpx"
+    src="{{avatarUrl}}"
+    fit="cover"
+    bindtap="tapChooseAvatar"
+  />
+  <view></view>
+  <text bindtap="tapLogin">{{nickName}}</text>
+</view>
+
+<van-cell-group>
+  <van-cell title="我的订单" is-link/>
+  <van-cell title="优惠券" is-link/>
+  <van-cell title="影院会员卡" is-link/>
+</van-cell-group>
+
+<van-cell-group>
+  <van-cell title="想看的电影" is-link/>
+  <van-cell title="看过的电影" is-link/>
+</van-cell-group>
+

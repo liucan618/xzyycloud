@@ -1,0 +1,9 @@
+/* pages/me/me.wxss */
+.poster{
+  width: 750rpx; height: 250rpx; 
+  background-color: #F03D37;
+  text-align: center; padding-top: 60rpx;
+}
+.poster text{
+  color: white;
+}
